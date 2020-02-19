@@ -1,0 +1,143 @@
+html, body
+{
+  background-color:#ffffff;
+  font: bold 16px arial;
+}
+.offset-mid
+{
+  margin:0 auto;
+}
+h1,h2,h3,h4,h5
+{
+  margin:0;
+}
+h2
+{
+  font-size: 28px;
+}
+header, .new-paint-job, .paint-job
+{
+  width: 900px;
+  margin: 0 auto;  
+}
+header 
+{
+  background-color:#ededed;
+}
+header h1
+{
+  padding:54px 0;
+  font-size: 38px;
+  text-align: center;
+  color: #656565;
+}
+
+nav > ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0 16px;
+  overflow: hidden;
+  background-color: #e9695b;
+}
+
+a {
+  color: #e9695b;
+  text-decoration: none;
+}
+nav  li 
+{
+  float: left;
+}
+  
+nav  li a 
+{
+  font-size: large;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+
+nav  li.on a
+{
+  color: #000000;
+  border-bottom:2px solid #000000;
+}
+
+h2
+{
+  text-align: center;   
+  padding:38px 0;
+}
+
+h3
+{
+  font-size: 24px;
+}
+
+select
+{
+  width: 200px;  
+}
+.form-car-details label
+{
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+  margin:8px 0;
+}
+
+
+input[type="submit"] {
+  background-color: #e9695b; 
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.flex-container
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.grow-4
+{
+  flex-grow: 4;
+}
+.bottom32
+{
+  margin-bottom:32px;
+}
+
+table
+{
+  border-collapse: collapse;
+}
+
+table td 
+{
+  border:1px solid #dddddd;
+  padding:8px;
+}
+
+table tr:first-child {
+  background-color:  #dddddd;
+}
+
+table tr.nobackground
+{
+  background-color: white;
+}
+
+table tr.nobackground td {
+  border:0px solid #dddddd;
+}
